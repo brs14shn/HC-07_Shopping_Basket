@@ -35,7 +35,7 @@ th, td{
 }
 
 th:first-child{
-    width: 100px;
+    width: 200px;
     text-align: left;
 }
 th:nth-child(2){
@@ -45,6 +45,7 @@ th:nth-child(2){
 th:nth-child(3), td:nth-child(3){
     width: 70px;
     text-align: center;
+
 }
 
 th:nth-child(n+4), td:nth-child(n+4){
