@@ -12,11 +12,42 @@ body{
     justify-content: center;
     align-items: center;
 }
+header{
+
+position: relative;
+background-color: rgb(93, 230, 93);
+height: 100px;
+top:-50px;
+
+  
+}
+
+header h1{
+    color: white;
+    display: block;
+    padding-left: 100px;
+    line-height:100px ;
+
+}
+
+header h2{
+    position: absolute;
+    width: 0px;
+    border-top:25px solid rgb(93, 230, 93);
+    border-right:50px solid lightgrey;
+    border-left:50px solid lightgrey;
+    bottom: -25px;
+    left: 100px; 
+   
+    
+   
+}
 
 .container{
     flex-direction: column;
     /* margin: 100px; */
     font-family: 'Roboto', sans-serif;
+    background-color: lightgrey;
 
 }
 
