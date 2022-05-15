@@ -17,11 +17,8 @@ header{
 position: relative;
 background-color: rgb(93, 230, 93);
 height: 100px;
-top:-50px;
-
-  
+top:-50px; 
 }
-
 header h1{
     color: white;
     display: block;
@@ -38,9 +35,7 @@ header h2{
     border-left:50px solid lightgrey;
     bottom: -25px;
     left: 100px; 
-   
     
-   
 }
 
 .container{
